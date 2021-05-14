@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jyanken</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/janken.js"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    
+    <div class="door-wrap">
+        <h1 class="tittle"><p>Whose voice?</p></h1>
+        <img src="" alt="" class="monster">
+        <img src="img/door.png" alt="ドア" class="door">
+        <img src="img/door_transparent.png" alt="ドアの縁" class="door-back">
+    
+        <ul class="btn-list">
+            <li><button class="btn-shuffle">START</button></li>
+            <li> <button class="btn-start">Re:VOICE</button></li>
+        </ul>
+        <div id="result"></div>
+    </div>
+
+    <ul class="answer-list">
+        <li class="answer-text" id="answer1"><p class="answer-a">QUESTION</p></li>
+        <li class="answer-text" id="answer2"><p class="answer-b">QUESTION</p></li>
+        <li class="answer-text" id="answer3"><p class="answer-c">QUESTION</p></li>
+    </ul>
+
+    <audio src="" id="audio"></audio>
+    <audio src="" id="questioner"></audio>
+    <audio src="" id="okng"></audio>
+
+</body>
+
+</html>
